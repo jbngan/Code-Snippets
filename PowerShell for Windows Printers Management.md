@@ -13,6 +13,7 @@ Restart-Service WinRM
 Connect to the remote computer using a username and password. This credential must be created on the remote computer.
 
 ```powershell
+$PSSessionConfigurationName = 'PowerShell.7'
 $User = 'Administrator'
 $Pass = 'myPassword'
 $PassSecured = ConvertTo-SecureString -AsPlainText $Pass -Force
