@@ -5,3 +5,9 @@
 - Pylance
 - IntelliCode
 - Python Indent
+- Config keyboard
+{  
+ "key": "ctrl+`",
+ "command": "workbench.action.focusActiveEditorGroup",
+ "when": "terminalFocus"
+},
