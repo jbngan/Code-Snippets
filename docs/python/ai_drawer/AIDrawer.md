@@ -1,6 +1,6 @@
 # AIDrawer
 
-`PyRender.core.ai_drawer` — helper class for drawing layered vector paths in Adobe Illustrator via Windows COM automation.
+`ai_drawer` — helper class for drawing layered vector paths in Adobe Illustrator via Windows COM automation.
 
 ## Requirements
 
@@ -189,7 +189,7 @@ Example: `ruler_origin=(10, 10)` with `UNIT_MM` adds a 10 mm margin on the left 
 ### Millimetres, A4, top-left coordinates
 
 ```python
-from PyRender.core.ai_drawer import AIDrawer, UNIT_MM, COORD_TOP_LEFT
+from ai_drawer import AIDrawer, UNIT_MM, COORD_TOP_LEFT
 
 layers = [
     {
@@ -225,7 +225,7 @@ drawer.close()
 ### Inches, US Letter, bottom-left coordinates
 
 ```python
-from PyRender.core.ai_drawer import AIDrawer, UNIT_IN, COORD_BOTTOM_LEFT
+from ai_drawer import AIDrawer, UNIT_IN, COORD_BOTTOM_LEFT
 
 layers = [
     {
